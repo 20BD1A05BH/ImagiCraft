@@ -1,0 +1,25 @@
+GET http://localhost:4000/oapp/nor
+
+###
+
+POST http://localhost:4000/oapp/geti
+Content-Type: application/json
+
+{
+    "prompt":"A Space Shuttle flying above Cape Town, digital art"
+}
+
+
+###
+
+GET http://localhost:4000/papp/getal
+
+
+###
+
+POST http://localhost:4000/papp/posti
+Content-Type: application/json
+
+{
+    "name":"prashanth"
+}
